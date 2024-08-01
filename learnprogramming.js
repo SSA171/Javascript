@@ -84,3 +84,42 @@ function nextYear(year) {
 }
 console.log(nextYear(2000))
 console.log(nextYear(2020))
+
+// intro to strings
+let city = "Amsterdam"
+
+function getNameLength(name) {
+    return name.length
+}
+
+//console.log
+let name = "Sam"
+console.log(name)
+
+//Grades average
+let grades = [10, 20, 9]
+let sums = 0
+grades.forEach(function(grade){
+    sum = sums + grade
+})
+let average = sum / grades.length
+console.log(average)
+
+//Console.log & functions
+function double(number) {
+    return number*2
+}
+
+function double(number) {
+    console.log(number * 2)
+    return number * 2
+}
+let result = double(4) // result is 8 - we also see 8 in the Console
+
+//Sample usage
+function sum(a, b) {
+    return a + b
+}
+// Sample usage (do not modify)
+sum(3, 5) // will return 8 (a = 3, b = 5)
+sum(4, 1) // will return 5 (a = 4, b = 1)
